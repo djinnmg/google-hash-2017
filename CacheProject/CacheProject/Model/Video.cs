@@ -4,15 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CacheProject
+namespace CacheProject.Model
 {
-    class Program
+    class Video
     {
-        static void Main(string[] args)
-        {
+        public int Id;
 
-
-
-        }
+        public int Size;
     }
 }

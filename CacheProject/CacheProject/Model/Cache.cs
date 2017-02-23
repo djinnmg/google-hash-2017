@@ -4,15 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CacheProject
+namespace CacheProject.Model
 {
-    class Program
+    class Cache
     {
-        static void Main(string[] args)
-        {
-
-
-
-        }
     }
 }
