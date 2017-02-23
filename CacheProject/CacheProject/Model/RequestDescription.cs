@@ -10,7 +10,7 @@ namespace CacheProject.Model
     {
         public int NoRequests;
 
-        public Request Request;
+        public Video Video;
 
 
     }

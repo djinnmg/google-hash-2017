@@ -43,7 +43,6 @@
   <ItemGroup>
     <Compile Include="Model\Cache.cs" />
     <Compile Include="Model\Endpoint.cs" />
-    <Compile Include="Model\Request.cs" />
     <Compile Include="Model\RequestDescription.cs" />
     <Compile Include="Model\Video.cs" />
     <Compile Include="Program.cs" />
