@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -9,6 +10,11 @@ namespace CacheProject
 {
     class Program
     {
+
+
+        public const String File = @"trending_today.in";
+
+
         static void Main(string[] args)
         {
 
@@ -18,7 +24,7 @@ namespace CacheProject
 
             // Read the file and display it line by line.
             System.IO.StreamReader file =
-            new System.IO.StreamReader(@"trending_today.in");
+            new System.IO.StreamReader(File);
             var firstLine = file.ReadLine();
             var videoSizeLine = file.ReadLine();
             
@@ -102,6 +108,30 @@ namespace CacheProject
             }
 
 
+        }
+
+
+       public void WriteResultsToFile(List<Cache> caches)
+       {
+
+           var writer = new StreamWriter(File);
+           var count = caches.Count - 1;
+           writer.WriteLine(count);          
+            foreach (var c in caches)
+            {
+                WriteLine(writer, c);
+                count--;
+            }
+        }
+
+        private void WriteLine(StreamWriter writer, Cache c)
+        {
+                writer.Write(c.Id);
+                foreach (var v in c.Videos)
+                {
+                    writer.Write(" "+ v.Id);
+                }
+                writer.WriteLine();
         }
     }
 }
