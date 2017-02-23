@@ -12,7 +12,8 @@ namespace CacheProject.Model
 
         public int LatencyToDataCenter;
 
-        public Dictionary<Cache, int> LatencyToCache;
+        // cacheId to cacheLatency
+        public Dictionary<int, int> LatencyToCache;
 
     }
 }
