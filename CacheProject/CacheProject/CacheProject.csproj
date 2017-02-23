@@ -42,6 +42,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Model\Cache.cs" />
+    <Compile Include="Model\CacheCombination.cs" />
+    <Compile Include="Model\ComparitorObject.cs" />
     <Compile Include="Model\Endpoint.cs" />
     <Compile Include="Model\RequestDescription.cs" />
     <Compile Include="Model\Video.cs" />
