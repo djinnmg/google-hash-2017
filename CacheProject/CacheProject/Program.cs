@@ -12,6 +12,7 @@ namespace CacheProject
     {
         static void Main(string[] args)
         {
+
             var videos = new List<Video>();
             var endpoints = new List<Endpoint>();
             var caches = new List<Cache>();
@@ -87,7 +88,23 @@ namespace CacheProject
 
             var comparitorObjects = ComparitorMapper.Map(endpoints);
 
-            Debugger.Break();
+            int cacheNumber = 3;
+            List<CacheCombinationList> caches2 = new List<CacheCombinationList>();
+            List<CacheCombinationList> resultCaches = new List<CacheCombinationList>();
+            
+            for (int i = 0; i < cacheNumber; i++)
+            {   
+                caches2.Add(new CacheCombinationList());    
+            }
+
+            foreach (var c in caches2)
+            {
+                CacheCombination finalCombination = c.Combinations.OrderBy(x => x.TotalEffectiveTimeSaved).FirstOrDefault();
+                c.Combinations = new List<CacheCombination>(); 
+                c.Combinations.Add(finalCombination);
+            }
+
+
         }
     }
 }
