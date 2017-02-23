@@ -4,3 +4,9 @@ C:\Dev\Personal\google-hash-2017\CacheProject\CacheProject\bin\Debug\CacheProjec
 C:\Dev\Personal\google-hash-2017\CacheProject\CacheProject\obj\Debug\CacheProject.csprojResolveAssemblyReference.cache
 C:\Dev\Personal\google-hash-2017\CacheProject\CacheProject\obj\Debug\CacheProject.exe
 C:\Dev\Personal\google-hash-2017\CacheProject\CacheProject\obj\Debug\CacheProject.pdb
+C:\Dev\google-hash-2017\CacheProject\CacheProject\bin\Debug\CacheProject.exe.config
+C:\Dev\google-hash-2017\CacheProject\CacheProject\obj\Debug\CacheProject.exe
+C:\Dev\google-hash-2017\CacheProject\CacheProject\obj\Debug\CacheProject.pdb
+C:\Dev\google-hash-2017\CacheProject\CacheProject\obj\Debug\CacheProject.csprojResolveAssemblyReference.cache
+C:\Dev\google-hash-2017\CacheProject\CacheProject\bin\Debug\CacheProject.exe
+C:\Dev\google-hash-2017\CacheProject\CacheProject\bin\Debug\CacheProject.pdb
