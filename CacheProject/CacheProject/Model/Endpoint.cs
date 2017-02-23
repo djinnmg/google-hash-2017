@@ -10,7 +10,7 @@ namespace CacheProject.Model
     {
         public int Id;
 
-        public RequestDescription RequestDescription;
+        public List<RequestDescription> RequestDescriptions;
 
         public int LatencyToDataCenter;
 
