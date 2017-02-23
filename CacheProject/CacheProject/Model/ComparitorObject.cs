@@ -8,6 +8,7 @@ namespace CacheProject.Model
 {
     class ComparitorObject
     {
+        //
         public int VideoId;
 
         public int CacheId;
