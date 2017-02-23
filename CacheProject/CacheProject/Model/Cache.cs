@@ -8,5 +8,6 @@ namespace CacheProject.Model
 {
     class Cache
     {
+        public int Id;
     }
 }

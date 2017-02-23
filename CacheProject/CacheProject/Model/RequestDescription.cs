@@ -8,5 +8,10 @@ namespace CacheProject.Model
 {
     class RequestDescription
     {
+        public int NoRequests;
+
+        public Request Request;
+
+
     }
 }
